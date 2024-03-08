@@ -23,7 +23,7 @@ async function getWeather(city) {
         document.querySelector('.celsius').innerHTML = "0 °C";
         document.querySelector('.humidity1').innerHTML = "0%";
         document.querySelector('.wind1').innerHTML = "0 Km/h";
-        weatherIcon.src = "./3D/NotFound.png"; 
+        weatherIcon.src = "./3D/NotFound.png";
         return;
     }
 
